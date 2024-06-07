@@ -12,9 +12,7 @@
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img1.jpg') center no-repeat fixed;
         background-size: cover;
         opacity: 90%;
-        /* Set opacity to 50% */
         z-index: -1;
-        /* Ensure the pseudo-element is behind other content */
     }
     
     .navbar {
@@ -28,11 +26,6 @@
     
     .navbar ul {
         text-align: right;
-    }
-    
-    .navbar ul li a[href="#"] {
-        color: #fff;
-        text-decoration: none;
     }
     
     .nav-item {

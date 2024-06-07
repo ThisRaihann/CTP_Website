@@ -10,7 +10,7 @@
     <header>
         <nav class="navbar">
             <ul>
-                <li class="nav-item"><a href="#">Register</a></li>
+                <li class="nav-item"><a href="Regristrasi.php" onmouseover="this.style.color='#6b6b6b'" onmouseout="this.style.color='white'" style="color: white; text-decoration: none; ">Register</a></li>
                 <li class="nav-item"> | </li>
                 <li class="nav-item"><a href="LoginPage.php" class="Login">Login</a></li>
             </ul>               

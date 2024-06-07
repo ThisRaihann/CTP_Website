@@ -30,7 +30,7 @@
         <label for="rememberme">Remember Me</label></div>
         <button type="submit" class="but-login">Login</button>
         <div id="lupa-password">
-                <a href="#">Lupa Password?</a>
+                <a href="ForgotPassword.php">Forgot Password?</a>
         </div>
     </form>
     <footer>

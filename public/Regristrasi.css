@@ -75,7 +75,7 @@ body {
     box-sizing: border-box;
 }
 
-#logintext {
+#Regristasitext {
     color: white;
     font-size: 60px;
     font-weight: 800;
@@ -83,7 +83,7 @@ body {
     margin-bottom: 30px;
 }
 
-.login label {
+.Regristasi label {
     display: block;
 }
 
@@ -93,8 +93,10 @@ label {
     color: white;
 }
 
-.login input[type="email"],
-.login input[type="password"] {
+.Regristasi input[type="email"],
+.Regristasi input[type="text"],
+.Regristasi input[type="number"],
+.Regristasi input[type="password"] {
     width: 100%;
     height: 60px;
     padding: 10px;
@@ -104,27 +106,11 @@ label {
     font-size: 16px;
 }
 
-#rememberme {
-    margin-right: 10px;
-}
-
-#remebmberme-box {
-    display: flex;
-}
-
-.remember-me {
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 22px;
-    font-weight: 500;
+.but-Regristasi {
     margin-top: 10px;
-}
-
-.but-login {
     width: 218px;
     height: 68px;
-    background: #286CFF;
+    background: #FF9818;
     color: white;
     border: none;
     border-radius: 5px;
@@ -133,8 +119,8 @@ label {
     cursor: pointer;
 }
 
-.but-login:hover {
-    background: #1e50cc;
+.but-Regristasi:hover {
+    background: #B75A0C;
 }
 
 #lupa-password {
@@ -146,9 +132,9 @@ label {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 100px;
+    position: relative;
+    bottom: 10;
+    padding-bottom: 10px;
 }
 
 #footer-text {
