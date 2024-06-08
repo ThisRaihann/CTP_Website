@@ -19,10 +19,10 @@
                     <a class="nav-link active" aria-current="page" href="beranda.php">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
+                    <a class="nav-link" href="menu.php">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mitra</a>
+                    <a class="nav-link" href="mitra.php">Mitra</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Tentang</a>
@@ -52,7 +52,6 @@
     Filter
   </button>
   <ul class="dropdown-menu dropdown-menu-dark">
-    <li><a class="dropdown-item active" href="#">Select</a></li>
     <li><a class="dropdown-item" href="#">Semua</a></li>
     <li><a class="dropdown-item" href="menu1.php">Jajanan Basah</a></li>
     <li><a class="dropdown-item" href="menu2.php">Jajanan Kering</a></li>

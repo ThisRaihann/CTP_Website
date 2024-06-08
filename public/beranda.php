@@ -24,7 +24,7 @@
                     <a class="nav-link" href="menu.php">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mitra</a>
+                    <a class="nav-link" href="mitra.php">Mitra</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Tentang</a>
