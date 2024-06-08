@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beranda</title>
+    <title>Menu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="beranda.css">
+    <link rel="stylesheet" href="menu1.css">
 </head>
 <body>
-    <nav class="navbar">
+<nav class="navbar">
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <a class="navbar-brand" href="#">
                 <img src="Frame 11.png" alt="" class="d-inline-block align-text-top">
@@ -21,7 +19,7 @@
                     <a class="nav-link active" aria-current="page" href="beranda.php">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="menu.php">Menu</a>
+                    <a class="nav-link" href="#">Menu</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Mitra</a>
@@ -45,128 +43,155 @@
         </div>
 </nav>
     <content>
-        <div></div>
-    <h1>Ada Yang Baru Nih!</h1>
-    <div class="top"><p id="p1">Perhatian para pecinta jajanan tradisional! 
-                        Ada kabar gembira untuk kamu nih! 
-                        Kami baru saja menambahkan beberapa 
-                        jajanan baru yang super lezat dan lagi trend lho!</p></div>
-          <!-- Swiper -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-      <div class="card" style="width: 18rem;">
-                <img src="asset1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                     <h5 class="card-title">Klepon Keju</h5>
-                     <h6 class="card-title">Rp 10.000/Pack</h6>
-                     <p class="card-text">Bu Yuk Kue</p>
-                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
-                            <a href="#" class="btn btn-primary">Beli</a>
-                        </div>
-                </div>
-      </div>
-      <div class="swiper-slide">
-      <div class="card" style="width: 18rem;">
-                <img src="asset1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                     <h5 class="card-title">Klepon Keju</h5>
-                     <h6 class="card-title">Rp 10.000/Pack</h6>
-                     <p class="card-text">Bu Yuk Kue</p>
-                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
-                            <a href="#" class="btn btn-primary">Beli</a>
-                        </div>
-                </div>
-      </div>
-      <div class="swiper-slide">
-      <div class="card" style="width: 18rem;">
-                <img src="asset1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                     <h5 class="card-title">Klepon Keju</h5>
-                     <h6 class="card-title">Rp 10.000/Pack</h6>
-                     <p class="card-text">Bu Yuk Kue</p>
-                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
-                            <a href="#" class="btn btn-primary">Beli</a>
-                        </div>
-                </div>
-      </div>
-      <div class="swiper-slide">
-      <div class="card" style="width: 18rem;">
-                <img src="asset1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                     <h5 class="card-title">Klepon Keju</h5>
-                     <h6 class="card-title">Rp 10.000/Pack</h6>
-                     <p class="card-text">Bu Yuk Kue</p>
-                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
-                            <a href="#" class="btn btn-primary">Beli</a>
-                        </div>
-                </div>
-      </div>
-      <div class="swiper-slide">
-      <div class="card" style="width: 18rem;">
-                <img src="asset1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                     <h5 class="card-title">Klepon Keju</h5>
-                     <h6 class="card-title">Rp 10.000/Pack</h6>
-                     <p class="card-text">Bu Yuk Kue</p>
-                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
-                            <a href="#" class="btn btn-primary">Beli</a>
-                        </div>
-                </div>
-      </div>
-      <div class="swiper-slide">
-      <div class="card" style="width: 18rem;">
-                <img src="asset1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                     <h5 class="card-title">Klepon Keju</h5>
-                     <h6 class="card-title">Rp 10.000/Pack</h6>
-                     <p class="card-text">Bu Yuk Kue</p>
-                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
-                            <a href="#" class="btn btn-primary">Beli</a>
-                        </div>
-                </div>
-      </div>
-      <div class="swiper-slide">
-      <div class="card" style="width: 18rem;">
-                <img src="asset1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                     <h5 class="card-title">Klepon Keju</h5>
-                     <h6 class="card-title">Rp 10.000/Pack</h6>
-                     <p class="card-text">Bu Yuk Kue</p>
-                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
-                            <a href="#" class="btn btn-primary">Beli</a>
-                        </div>
-                </div>
-      </div>
+
+    <h1>Semua</h1>
+    <div class="wrapper-dropdown">
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle btn-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Filter
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item" href="#">Semua</a></li>
+    <li><a class="dropdown-item" href="menu1.php">Jajanan Basah</a></li>
+    <li><a class="dropdown-item" href="menu2.php">Jajanan Kering</a></li>
+  </ul>
+</div>
     </div>
-    <div class="swiper-pagination"></div>
-  </div>
-    </content>
 
+    <div class="wrapper-card">
+      <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                </div>
+                <div class="wrapper-card">
+      <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                </div>
 
+                <div class="wrapper-card">
+      <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img src="asset1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     <h5 class="card-title">Klepon Keju</h5>
+                     <h6 class="card-title">Rp 10.000/Pack</h6>
+                     <p class="card-text">Bu Yuk Kue</p>
+                         <p class="card-subtext">Bosan dengan klepon biasa? Coba Klepon Keju dari Bu Yuk Kue! Perpaduan sempurna antara kelembutan klepon tradisional dengan isian keju. </p>
+                            <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                </div>
+                </div>
 
-
-      <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
-</script>
+                <script>        
+                document.getElementById('pageSelect').addEventListener('change', function() {
+                var selectedValue = this.value;
+                if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        });</script>
 </body>
 </html>
