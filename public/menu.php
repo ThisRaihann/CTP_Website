@@ -51,7 +51,7 @@
     Filter
   </button>
   <ul class="dropdown-menu dropdown-menu-dark">
-    <li><a class="dropdown-item" href="#">Semua</a></li>
+    <li><a class="dropdown-item" href="menu.php">Semua</a></li>
     <li><a class="dropdown-item" href="menu1.php">Jajanan Basah</a></li>
     <li><a class="dropdown-item" href="menu2.php">Jajanan Kering</a></li>
   </ul>

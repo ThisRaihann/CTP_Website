@@ -22,7 +22,7 @@
                     <a class="nav-link" href="menu.php">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mitra</a>
+                    <a class="nav-link" href="mitra.php">Mitra</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Tentang</a>
@@ -45,7 +45,12 @@
 
 <content>
 <table class="table table-striped">
-<h2>Tabel Mitra</h2>
+<h2>Daftar Mitra</h2>
+
+<div class="header-kalimat">
+<div class="header-awal">Berikut adalah para Mitra-Mitra yang sudah tergabung  dengan CemilanTempoDoeloe :</div>
+<div class="daftar-mitra"> Berminat Menjadi Mitra ? <a href="#"> Daftar Mitra</a></div>
+</div>
         <thead>
             <tr>
                 <th>Nama Mitra</th>
@@ -117,6 +122,16 @@
             <tr>
                 <td>Mitra 13</td>
                 <td>Alamat 13</td>
+                <td>1122334455</td>
+            </tr>
+            <tr>
+                <td>Mitra 14</td>
+                <td>Alamat 14</td>
+                <td>1122334455</td>
+            </tr>
+            <tr>
+                <td>Mitra 15</td>
+                <td>Alamat 15</td>
                 <td>1122334455</td>
             </tr>
         </tbody>

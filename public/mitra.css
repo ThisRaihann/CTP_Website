@@ -110,36 +110,43 @@ body {
 
 h2 {
     font-weight: bolder;
-    color: #44B36F;
+    color: #11644A;
     text-align: center;
     margin: 30px;
 }
 
+.header-awal {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.daftar-mitra {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.daftar-mitra a {
+    font-style: italic;
+    color: black;
+}
+
 table {
     width: 80%;
-    /* Lebar tabel */
     margin: 20px auto;
-    /* Tabel berada di tengah */
     border-collapse: collapse;
-    /* Menggabungkan border */
     font-size: 16px;
-    /* Ukuran font */
 }
 
 th,
 td {
     padding: 12px;
-    /* Padding sel */
     text-align: left;
-    /* Perataan teks kiri */
     border: 1px solid #6a6a6a;
-    /* Border sel */
 }
 
 th {
     text-align: center;
-    background-color: #007bff;
-    /* Warna latar belakang header */
     color: #fff;
-    /* Warna teks header */
 }
