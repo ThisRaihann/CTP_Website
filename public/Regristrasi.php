@@ -1,3 +1,26 @@
+<?php
+    include('koneksi.php');
+    global$mysqli;
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Ambil nilai dari formulir
+        $username = $_POST['username'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+        $confirmpassword = $_POST['ConfirmPassword'];
+        $nomorhandphone=$_POST['nomorhandphone'];
+    
+        // Query untuk menyimpan data ke dalam database
+        $sql = "INSERT INTO akun (username, email, password, NomerHandphone ) VALUES ('$username', '$email', '$password', '$nomorhandphone')";
+        
+        // Jalankan query
+        if ($mysqli->query($sql) === TRUE) {
+            echo "Data berhasil disimpan";
+        } else {
+            echo "Error: " . $sql . "<br>" . $mysqli->error;
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +52,7 @@
         </div>
         <div class="right-side">
     <div id="Regristasitext">Registrasi</div>
-    <form class="Regristasi">
+    <form action="" method="post" class="Regristasi">
         <label for="username">Username</label>
         <input type="text" name="username" placeholder="username">
         <label for="email">Email</label>
@@ -40,7 +63,7 @@
         <input type="password" name="ConfirmPassword" placeholder="Confirm Password">
         <label for="nomorhandphone">Nomor Handphone</label>
         <input type="number" name="nomorhandphone" placeholder="Nomor Handphone">
-        <button type="submit" class="but-Regristasi">Registrasi</button>
+        <button type="submit" name="submit" class="but-Regristasi">Registrasi</button>
     </form>
     </div>
     </content>

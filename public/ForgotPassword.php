@@ -12,19 +12,7 @@
 </head>
 
 <body>
-    <header>
-        <div class="card-container"> 
-        <div class="card">
-        <div class="container">
-        <h2><b>Forgot Password</b></h2>
-        <img src="user.png" alt="user"><br><br>
-        <label for="email">Email Konfirmasi</label>
-        <input type="email" placeholder="Email">
-        <button type="submit" class="but-login">Kirim</button>
-        </div>
-        </div>
-        </div>
-    </header>
+
 </body>
 
 </html>
