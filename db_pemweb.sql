@@ -1,0 +1,2 @@
+CREATE TABLE akun(
+)`akun`
