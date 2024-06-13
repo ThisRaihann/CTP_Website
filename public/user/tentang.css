@@ -49,7 +49,6 @@ body {
     list-style: none;
     padding: 20px 200px;
 }
-
 .button-container {
     width: 137px;
     height: 40px;
@@ -108,41 +107,15 @@ body {
     color: #5CD180;
 }
 
-h2 {
-    font-weight: bolder;
-    color: #11644A;
-    text-align: center;
-    margin: 30px;
-}
-
-.card {
-    background-color: white;
-    color: black;
-    width: 1200px;
-    height: 600px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 30px auto;
-    overflow: hidden;
-}
-
-.card-body {
-    padding: 30px;
+.container {
+    max-width: 800px;
+    margin: auto;
 }
 
 .card-text {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
-
-p {
-    font-size: 24px;
-}
-
 
 .card-footer {
     background-color: #f8f9fa;
-    padding: 10px;
-    font-size: 0.875em;
-    border-top: 1px solid #e9ecef;
 }

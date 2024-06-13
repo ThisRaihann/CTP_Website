@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tentang</title>
+    <title>Tentang Kami</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="tentang.css">
@@ -25,7 +25,7 @@
                     <a class="nav-link" href="mitra.php">Mitra</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang</a>
+                    <a class="nav-link" href="tentang.php">Tentang</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontak</a>
@@ -43,17 +43,30 @@
         </div>
 </nav>
 
-<content>
-    <h2>Tentang Kami</h2>
-
+<div class="container my-5">
+    <h2 class="text-center mb-4">Tentang Kami</h2>
     <div class="card text-center">
-  <div class="card-body">
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium aenean pharetra magna ac placerat. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Dictum at tempor commodo ullamcorper a lacus vestibulum. Auctor elit sed vulputate mi sit amet. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. Eleifend mi in nulla posuere sollicitudin. </p>
-  </div>
-  <div class="card-footer text-body-secondary">
-    CemilanTempoDoeloe
-  </div>
+        <div class="card-body">
+            <p class="card-text text-start">
+                Selamat datang di <strong>Jajanan Tempo Doeloe</strong>! 
+            </p>
+            <p class="card-text text-start">
+            Kami adalah usaha yang berdedikasi untuk menghadirkan kembali cita rasa autentik dari masa lalu melalui aneka jajanan tradisional yang lezat dan berkesan. Didirikan pada tahun 2024, Jajanan Tempo Doeloe hadir dengan misi untuk mengingatkan kembali kenangan manis masa kecil dan warisan kuliner yang hampir terlupakan.
+            </p>
+            <p class="card-text text-start">
+                Di Jajanan Tempo Doeloe, kami percaya bahwa setiap gigitan membawa Anda kembali ke masa-masa indah, di mana jajanan khas pasar dan penganan tradisional menjadi bagian tak terpisahkan dari keseharian.
+            </p>
+            <p class="card-text text-start">
+                Kami berkomitmen untuk terus melestarikan dan mengenalkan kelezatan jajanan tempo doeloe kepada generasi sekarang dan yang akan datang. Melalui produk kami, kami berharap dapat menyatukan keluarga, teman, dan komunitas dalam kenikmatan bersama dan nostalgia yang menyenangkan.
+            </p>
+            <p class="card-text text-start">
+                Terima kasih telah mempercayakan kenangan kuliner Anda kepada kami. Selamat menikmati jajanan tempo doeloe yang penuh rasa dan cerita!
+            </p>
+        </div>
+        <div class="card-footer text-muted">
+            CemilanTempoDoeloe
+        </div>
+    </div>
 </div>
-</content>
 </body>
 </html>

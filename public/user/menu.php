@@ -25,7 +25,7 @@
                     <a class="nav-link" href="mitra.php">Mitra</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang</a>
+                    <a class="nav-link" href="tentang.php">Tentang</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontak</a>
