@@ -30,7 +30,7 @@
                     <a class="nav-link" href="tentang.php">Tentang</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="kontak.php">Kontak</a>
                 </li>
                 <li class="profile-item">
                    <a href=""> <div class="button-container">
