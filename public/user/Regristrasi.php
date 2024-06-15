@@ -12,7 +12,7 @@
     
         // Query untuk menyimpan data ke dalam database
         $sql = "INSERT INTO akun (username, email, password, NomerHandphone ) VALUES ('$username', '$email', '$password', '$nomorhandphone')";
-        
+        header("location: LoginPage.php");
         // Jalankan query
         if ($mysqli->query($sql) === TRUE) {
             echo "Data berhasil disimpan";

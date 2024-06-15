@@ -33,7 +33,7 @@
                     <a class="nav-link" href="kontak.php">Kontak</a>
                 </li>
                 <li class="profile-item">
-                   <a href=""> <div class="button-container">
+                   <a href="profil.php"> <div class="button-container">
                     <div class="button-background"></div>
                     <div class="icon-container">
                     <img src="person.png" alt="">
