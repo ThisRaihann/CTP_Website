@@ -169,12 +169,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>TAMBAH MITRA</h1>
+            <h1>DELETE MITRA</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="../../index.php">Home</a></li>
-              <li class="breadcrumb-item active">Tambah Mitra</li>
+              <li class="breadcrumb-item active">Delete Mitra</li>
             </ol>
           </div>
         </div>
@@ -190,28 +190,14 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Tambah Mitra</h3>
+                <h3 class="card-title">Delete Mitra</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="../../tambahmitra.php" method="POST">
-                <div class="card-body">
-                  <div class="form-group">
-                    <label for="exampleInputNama1">Nama Mitra</label>
-                    <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="Masukkan Nama" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputAlamat1">Alamat</label>
-                    <input type="text" name="alamat" class="form-control" id="exampleInputAlamat1" placeholder="Masukkan Alamat" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputNomor1">Nomor Handphone</label>
-                    <input type="text" name="nomor" class="form-control" id="exampleInputNomor1" placeholder="Masukkan Nomor Handphone" required>
-                  </div>
-                </div>
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
+              <form action="../../delete.php" method="POST">
+                <label for="mitraId">ID Mitra yang Akan Dihapus:</label>
+                <input type="text" id="mitraId" name="mitraId" placeholder="Masukkan ID Mitra">
+                <button type="submit">Hapus</button>
               </form>
             </div>
             <!-- /.card -->
@@ -222,8 +208,9 @@
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
-    
   </div>
+
+
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="float-right d-none d-sm-block">

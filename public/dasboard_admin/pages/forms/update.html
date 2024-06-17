@@ -169,12 +169,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>TAMBAH MITRA</h1>
+            <h1>UPDATE MITRA</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="../../index.php">Home</a></li>
-              <li class="breadcrumb-item active">Tambah Mitra</li>
+              <li class="breadcrumb-item active">Update Mitra</li>
             </ol>
           </div>
         </div>
@@ -190,12 +190,16 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Tambah Mitra</h3>
+                <h3 class="card-title">Update Mitra</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="../../tambahmitra.php" method="POST">
+              <form action="../../updatemitra.php" method="POST">
                 <div class="card-body">
+                  <div class="form-group">
+                    <label for="mitraId">ID Mitra:</label>
+                    <input type="text" class="form-control" id="mitraId" name="mitraId" placeholder="Masukkan ID Mitra">
+                  </div>
                   <div class="form-group">
                     <label for="exampleInputNama1">Nama Mitra</label>
                     <input type="text" name="nama" class="form-control" id="exampleInputNama1" placeholder="Masukkan Nama" required>
@@ -210,7 +214,7 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">Update</button>
                 </div>
               </form>
             </div>
@@ -222,8 +226,9 @@
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
-    
   </div>
+
+
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="float-right d-none d-sm-block">
