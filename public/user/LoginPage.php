@@ -1,26 +1,3 @@
-<?php
-    include('koneksi.php');
-    global$mysqli;
-
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-        $email = $_POST['email'];
-        $password = $_POST['password'];
-
-        $query="Select * From akun where email='$email'";
-        $result = mysqli_query($mysqli,$query);
-        
-        if($result->num_rows>0){
-            $akun=$result->fetch_assoc();
-            if ($password == $akun['Password']){
-                $_SESSION['email']=$email;
-                $_SESSION['username']= $akun['$username'];
-                header("location: beranda.php");    
-            }
-        }
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,7 +20,7 @@
         </div>
         <div class="right-side">
     <div id="logintext">Login</div>
-    <form class="login" method="post" action="">
+    <form class="login" action="conn.php" method="POST" >
         <label for="email">Email</label>
         <input type="email" name="email" placeholder="Email">
         <label for="Password">Password</label>

@@ -10,9 +10,9 @@
     <header>
         <nav class="navbar">
             <ul>
-                <li class="nav-item"><a href="Regristrasi.php" onmouseover="this.style.color='#6b6b6b'" onmouseout="this.style.color='white'" style="color: white; text-decoration: none; ">Register</a></li>
+                <li class="nav-item"><a href="user/Regristrasi.php" onmouseover="this.style.color='#6b6b6b'" onmouseout="this.style.color='white'" style="color: white; text-decoration: none; ">Register</a></li>
                 <li class="nav-item"> | </li>
-                <li class="nav-item"><a href="LoginPage.php" class="Login">Login</a></li>
+                <li class="nav-item"><a href="user/LoginPage.php" class="Login">Login</a></li>
             </ul>               
         </nav>
     </header>
@@ -23,7 +23,7 @@
         <div id="search-container">
             <input type="text" name="Cari" placeholder="Cari">
             <button id="search-button" type="submit" onclick="searchFunction()">
-      <img src="search.png" alt="Search">
+      <img src="user/search.png" alt="Search">
     </button>
         </div>
     </content>
